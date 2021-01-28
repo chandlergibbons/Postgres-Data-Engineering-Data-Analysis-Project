@@ -15,18 +15,18 @@ dept_name string
 
 dept_manager
 -
-dept_no string FK >- departments.dep_no
-emp_no int FK -< employees.emp_no
+dept_no string PK FK >- departments.dep_no
+emp_no int PK FK -< employees.emp_no
 
 dept_emp
 -
-emp_no int FK >- employees.emp_no
-dept_no string FK >- departments.dep_no
+emp_no int PK FK >- employees.emp_no
+dept_no string PK FK >- departments.dep_no
 
 
 salary
 -
-emp_no int FK -< employees.emp_no
+emp_no int PK FK -< employees.emp_no
 salary int
 
 titles
