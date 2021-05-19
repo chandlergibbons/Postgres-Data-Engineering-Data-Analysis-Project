@@ -1,2 +1,3 @@
 # sql-challenge
-SQL homework assignment 
+SQL Homework Assignment 
+
