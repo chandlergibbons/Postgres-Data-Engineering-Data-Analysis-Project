@@ -1,6 +1,6 @@
 # sql-challenge
 
-[]postgres_sql_gif.gif
+![](postgres_sql_gif.gif)
 
 SQL Homework Assignment 
 
