@@ -6,4 +6,4 @@ SQL Homework Assignment
 
 
 
-For this assignement I designed tables to hold data in the CSVs, I then imported the CSVs into a SQL database.
+For this assignement I designed tables to hold datafor CSV's using an [ERD](https://www.quickdatabasediagrams.com), I then imported the CSVs into a Postgres database.
