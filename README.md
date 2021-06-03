@@ -1,4 +1,4 @@
-# sql-challenge
+# Postgres Data Engineering & Data Analysis Project
 
 ![](postgres_sql_gif.gif)
 
