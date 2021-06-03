@@ -10,10 +10,10 @@ For this assignement I engineered a postgres database to hold sample employee da
 
 I first ran a query to list details of each employee: employee number, last name, first name, sex, and salary.
 
-`<addr>`-- SELECT employees.emp_no, employees.last_name, employees.first_name, employees.sex, salary.salary
--- FROM employees
--- LEFT JOIN salary
--- ON employees.emp_no = salary.emp_no;
+`<SELECT employees.emp_no, employees.last_name, employees.first_name, employees.sex, salary.salary
+  FROM employees
+  LEFT JOIN salary
+  ON employees.emp_no = salary.emp_no;r>`
 
 
 Next I ran a query to list first name, last name, and hire date for employees who were hired in 1986.
