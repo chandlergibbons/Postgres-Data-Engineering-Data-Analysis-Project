@@ -18,6 +18,10 @@ I first ran a query to list details of each employee: employee number, last name
 
 Next I ran a query to list first name, last name, and hire date for employees who were hired in 1986.
 
+`<-- SELECT  employees.last_name, employees.first_name, employees.hire_date
+-- FROM employees
+-- WHERE (SELECT EXTRACT (YEAR FROM hire_date) = '1986');>`
+
 
 Then a ran a query that listed the manager of each department with their department number, department name, employee number, last name, first name.
 
