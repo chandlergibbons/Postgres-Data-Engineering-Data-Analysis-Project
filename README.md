@@ -65,7 +65,7 @@ For this assignement I engineered a postgres database to hold sample employee da
   ON dept_emp.dept_no = departments.dept_no
   WHERE dept_name = 'Sales' or dept_name = 'Development';>`
 
-8. Lastly in descending order, I listed the frequency count of employee last names, i.e., how many employees share each last name.
+8. I also wrote a querry to list the frequency count of employee last names in descending order
 
 `<SELECT employees.last_name, COUNT(employees.last_name) AS "Last_Name_Count"
   FROM employees
