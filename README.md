@@ -83,8 +83,8 @@ connection = engine.connect()>`
 
 10. I then created a histogram to visualize the most common salary ranges for employees.
 
-![]()
+![](hist.png)
 
 11. Lastly I created a bar chart of average salary by title.
 
-![]()
+![](avg_sal_per_job.png)
