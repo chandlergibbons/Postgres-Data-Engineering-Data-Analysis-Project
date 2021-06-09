@@ -6,7 +6,10 @@ SQL Homework Assignment
 
 
 
-For this assignement I engineered a postgres database to hold sample employee data from CSV's using an [ERD](https://www.quickdatabasediagrams.com). I then imported the CSVs into a Postgres and ran some queries to get the information below.
+For this assignement I engineered a postgres database to hold sample employee data from CSV's using an [ERD](https://www.quickdatabasediagrams.com).
+![](database_diagram.png)
+
+I then imported the CSVs into a Postgres and ran some queries to get the information below.
 
 1. I first ran a query to list details of each employee: employee number, last name, first name, sex, and salary.
 
@@ -72,4 +75,16 @@ For this assignement I engineered a postgres database to hold sample employee da
   GROUP BY employees.last_name
   ORDER BY "Last_Name_Count" DESC;>`
 
+9. I then imported that data into a juptyer notebook with SQLalchemy and examined that data further with pandas
 
+`<from sqlalchemy import create_engine
+engine = create_engine('postgresql://localhost:5432/<your_db_name>')
+connection = engine.connect()>`
+
+10. I then created a histogram to visualize the most common salary ranges for employees.
+
+![]()
+
+11. Lastly I created a bar chart of average salary by title.
+
+![]()
